@@ -1,14 +1,18 @@
 {
     "recommendations": [
+        "lextudio.restructuredtext",
         "mhutchie.git-graph",
         "ms-ceintl.vscode-language-pack-ja",
         "ms-python.autopep8",
+        "ms-vscode.live-server",
         "ms-python.black-formatter",
         "ms-python.flake8",
         "ms-python.pylint",
         "ms-python.python",
         "ms-python.vscode-pylance",
-        "ms-vscode.live-server",
-        "ryanluker.vscode-coverage-gutters",
+        "ms-toolsai.jupyter",
+        "njpwerner.autodocstring",
+        "shd101wyy.markdown-preview-enhanced",
+        "trond-snekvik.simple-rst",
     ]
 }

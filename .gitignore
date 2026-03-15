@@ -1,5 +1,3 @@
 __pycache__/
 *.pyc
-htmlcov/
-.coverage
-coverage.xml
+docs/_build/

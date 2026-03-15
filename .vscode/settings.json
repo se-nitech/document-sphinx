@@ -23,22 +23,27 @@
             "source.organizeImports": "never"
         }
     },
-    // unittest
-    "python.testing.unittestEnabled": false,
-    "python.testing.unittestArgs": [
-        "-v",
-        "-s",
-        ".",
-        "-p",
-        "test*.py"
-    ],
-    // pytest
-    "python.testing.pytestEnabled": true,
-    "python.testing.pytestArgs": [
-        "test"
-    ],
+    "[markdown]": {
+        "editor.defaultFormatter": "yzhang.markdown-all-in-one",
+    },
+    "markdownlint.config": {
+        "default": true,
+        "MD033": false, // no-inline-html
+    },
+    "markdown.extension.tableFormatter.normalizeIndentation": true,
     //
-    "coverage-gutters.showLineCoverage": true,
-    "coverage-gutters.showGutterCoverage": true,
-    // "coverage-gutters.showRulerCoverage": true,
+    "[java]": {
+        "editor.defaultFormatter": "redhat.java",
+        "editor.insertSpaces": true
+    },
+    "java.format.enabled": true,
+    "java.format.onType.enabled": true,
+    // Java convention formatting
+    "java.format.settings.url": ".vscode/java-formatter.xml",
+    "java.format.settings.profile": "JavaConventions",
+    // Google style formatting
+    // see https://code.visualstudio.com/docs/java/java-linting#_formatter
+    // "java.format.settings.url": "https://raw.githubusercontent.com/google/styleguide/gh-pages/eclipse-java-google-style.xml",
+    // "java.format.settings.profile": "GoogleStyle",
+    //
 }

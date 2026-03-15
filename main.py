@@ -1,9 +1,15 @@
+"""算術演算"""
+
 import argparse
 from compute import myadd
-# from compute_final import myadd
 
 
 def main():
+    """コマンドライン引数を解析し、サンプル計算を実行する。
+
+    このスクリプトは2つの整数と演算種別
+    ("add" または "mult") を受け取る。
+    """
     parser = argparse.ArgumentParser(description='add or multiply two numbers')
     parser.add_argument('arg1', type=int,
                         help='first argment')
