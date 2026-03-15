@@ -1,4 +1,4 @@
-# unittestのサンプル
+# Dockerでsphinxを利用
 
 起動
 
