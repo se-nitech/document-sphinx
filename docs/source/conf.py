@@ -119,4 +119,8 @@ html_sidebars = {
 # ---- Optionally: enable mathjax, if you use math in docs -------------------
 # extensions += ["sphinx.ext.mathjax"]
 
+# ---- LaTeX output options (if you build PDF via LaTeX) ----------------------
+latex_docclass = {'manual': 'jsbook'}
+
+
 # ---- End of conf.py --------------------------------------------------------

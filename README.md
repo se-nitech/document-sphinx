@@ -12,6 +12,8 @@ Sphinxドキュメント生成
 ```bash
 docker compose exec mypython sphinx-apidoc -f -e -o docs/source . docs __pycache__
 docker compose exec mypython sphinx-build -b html docs/source docs/build/html
+docker compose exec mypython sphinx-build -b singlehtml docs/source docs/build/singlehtml
+docker compose exec mypython sphinx-build -b latex docs/source docs/build/latex
 ```
 
 停止
